@@ -2,6 +2,7 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: rgb(245, 248, 255);
 }
 
 /*reusable style start*/
@@ -86,7 +87,8 @@ nav li a {
 .action{
   display: flex;
   justify-content:space-between;
-  margin: 50px 150px 50px 150px;
+  margin: 50px 190px 50px 190px;
+  /* padding: 0px 50px 0px 50px; */
   gap: 30px;
   align-items: center;
 }
@@ -98,4 +100,32 @@ nav li a {
 .text-1{
     font-size: 40px;
     font-weight: 700;
+}
+
+/* user section */
+.user-number{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    gap: 100px ;
+}
+
+.user-number h1{
+    color: #4E47FF;
+    font-size: 60px;
+    font-weight: bold;
+    margin: auto;   
+}
+
+.user h3{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.user{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 50px 190px 50px 190px;
+    padding: 20px 5px 20px 5px;
+    border-radius: 20px;
+
 }
