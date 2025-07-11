@@ -2,7 +2,9 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: rgb(245, 248, 255);
+    
+}
+body{ background-color: rgb(245, 248, 255);;
 }
 
 /*reusable style start*/
@@ -127,5 +129,31 @@ nav li a {
     margin: 50px 190px 50px 190px;
     padding: 20px 5px 20px 5px;
     border-radius: 20px;
+
+}
+
+/* review section */
+.review h3{
+        font-size: 38px;
+        font-weight: bold;
+}
+
+.review-profile{
+    display: flex;
+    gap: 15px;
+}
+.review-profile img{
+    border-radius: 50%;
+}
+.review-card{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 190px 50px 190px;
+}
+ 
+.review-star{
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 1px  rgba(219, 217, 217, 0.918), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
