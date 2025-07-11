@@ -157,3 +157,39 @@ nav li a {
     box-shadow: 0 1px  rgba(219, 217, 217, 0.918), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
+/* focus section */
+
+.focus{
+    display: block;
+    align-items: center;
+    justify-items: center;
+}
+
+.focus-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.focus-img{
+    max-width: 650px;
+    border-radius: 15px;
+
+}
+.focus-img-bg{
+    display: flex;
+    margin: 20px 0 20px  0 ;
+    justify-content: center;
+}
+
+.focus-section-bg{
+    background-color: white;
+    padding: 20px 0 20px 0;
+    margin: 0 150px 0 150px;
+}
+
+.focus-h2{
+    font: bold ;
+    font-size: 38px;
+}
