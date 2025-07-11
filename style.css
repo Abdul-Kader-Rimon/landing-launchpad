@@ -26,6 +26,9 @@
     border: none;
 
 }
+.text-2 {
+    color: #474747;
+}
 
 /* reusable style end */
 
@@ -79,3 +82,20 @@ nav li a {
     background-image: url(Assets/Hero-bg.png);
 }
 
+/* main section */
+.action{
+  display: flex;
+  justify-content:space-between;
+  margin: 50px 150px 50px 150px;
+  gap: 30px;
+  align-items: center;
+}
+
+.action img{
+    border-radius: 30px;
+}
+
+.text-1{
+    font-size: 40px;
+    font-weight: 700;
+}
