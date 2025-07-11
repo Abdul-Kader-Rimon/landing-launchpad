@@ -193,3 +193,50 @@ nav li a {
     font: bold ;
     font-size: 38px;
 }
+
+/* form section */
+.form{
+        padding: 130px 230px;
+        display: flex;
+        gap: 100px;
+    }
+
+.form-column {
+    width: 50%;
+}
+
+form input[type="name"],
+form input[type="email"] {
+    height: 64px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: #474747;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    display: block;
+}
+
+form textarea{
+        width: 100%;
+            border-radius: 10px;
+            border: none;
+            background-color: white;
+            color: #474747;
+            padding: 10px 20px;
+            margin-bottom: 24px;
+            margin-top: 10px;
+            display: block;
+}
+
+form label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-heading{
+    font-size: 97px;
+    font-weight: 600;
+}
